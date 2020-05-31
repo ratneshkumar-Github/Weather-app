@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, #e67e22, #e74c3c);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bg {
+  box-shadow: 2px 1px 27px 0px;
+  border: 1px solid #c0e4dd;
+    width: 100%;
+    text-align: center;
+    background-image: url(/static/media/bg.04016f62.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 35rem;
+}
+.container {
+  margin-top: 35px !important;
+}
+.addbtn {
+  margin-left: 5px;
+    background: #f79d3d;
+    border-radius: 20px;
+    border: 1px solid #E2E2E1;
+    padding: 8px;
+  
+}
+input[type="text" i] {
+  padding: 7px 30px;
+}
+.user-weather {
+  box-shadow: 2px 1px 27px 0px;
+  border: 1px solid #c0e4dd;
+    width: 100%;
+    text-align: center;
+    background-image: url("./img/outdoor.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 35rem;
+}
+.mainImg {
+  height: 35vh;
+    border: 1px solid #b7d3e1;
+    box-shadow: 0px 0px 8px 0px #469fc1;
+}
+
+  .btnBottom {
+    position: absolute;
+    bottom: 14px;
+    right: 0px;
+    width: 26%;
+    margin-right: 10px;
+}
+  
